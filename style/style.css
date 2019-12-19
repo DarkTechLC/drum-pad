@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  background: #fff;
+  display: flex;
+  width: 100vw;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+div:hover {
+  opacity: 1;
+}
+
+.bg-b {
+  background: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  div {
+    height: 25vh;
+  }
+
+  p {
+    display: none;
+  }
+
+  .bg-w-mobile {
+    background: #fff;
+    color: #000;
+  }
+
+  .bg-b-mobile {
+    background: #000;
+    color: #fff;
+  }
+
+}
