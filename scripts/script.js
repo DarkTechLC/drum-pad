@@ -63,12 +63,14 @@ const keyboardPlaySong = (event) => {
   }
 }
 
-/*const clickPlaySong = (area, play, music) => {
+const clickPlaySong = (area, play, music) => {
   let areaClick = document.querySelector(area)
-  areaClick.addEventListener('click', selectIdAndSong(play, music));
+  areaClick.addEventListener('click', function () {
+    selectIdAndSong(play, music);
+  })
 }
 
-clickPlaySong('#area1', '#play1', 'Track01.mp3')*/
+clickPlaySong('#area1', '#play1', 'Track01.mp3')
 
 //document.querySelector('#area1').addEventListener('click', selectIdAndSong('#play1', 'Track01.mp3'))
 
