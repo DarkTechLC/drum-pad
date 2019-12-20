@@ -7,37 +7,48 @@
     <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
+    <div class="alert">
+      Pressione uma tecla válida!
+    </div>
     <main>
       <section>
-        <div class="">
+        <div id="area1" onclick="selectIdAndSong('#play1', 'Track01.mp3')">
           <p>A</p>
+          <audio id="play1"></audio>
         </div>
-        <div class="bg-b">
+        <div id="area2" class="bg-b" onclick="selectIdAndSong('#play2', 'Track02.mp3')">
           <p>S</p>
+          <audio id="play2"></audio>
         </div>
       </section>
       <section>
-        <div class="bg-b-mobile">
+        <div id="area3" class="bg-b-mobile" onclick="selectIdAndSong('#play3', 'Track03.mp3')">
           <p>D</p>
+          <audio id="play3"></audio>
         </div>
-        <div class="bg-b  bg-w-mobile">
+        <div id="area4" class="bg-b  bg-w-mobile" onclick="selectIdAndSong('#play4', 'Track04.mp3')">
           <p>F</p>
+          <audio id="play4"></audio>
         </div>
       </section>
       <section>
-        <div class="">
+        <div id="area5" onclick="selectIdAndSong('#play5', 'Track05.mp3')">
           <p>G</p>
+          <audio id="play5"></audio>
         </div>
-        <div class="bg-b">
+        <div id="area6" class="bg-b" onclick="selectIdAndSong('#play6', 'Track06.mp3')">
           <p>H</p>
+          <audio id="play6"></audio>
         </div>
       </section>
       <section>
-        <div class="bg-b-mobile">
+        <div id="area7" class="bg-b-mobile" onclick="selectIdAndSong('#play7', 'Track07.mp3')">
           <p>J</p>
+          <audio id="play7"></audio>
         </div>
-        <div class="bg-b bg-w-mobile">
+        <div id="area8" class="bg-b bg-w-mobile" onclick="selectIdAndSong('#play8', 'Track08.mp3')">
           <p>K</p>
+          <audio id="play8"></audio>
         </div>
       </section>
     </main>
