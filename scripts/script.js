@@ -2,7 +2,7 @@ const body = document.querySelector('body');
 
 const selectIdAndSong = (id, song) => {
   let player = document.querySelector(id);
-  player.src = `../songs/${song}`;
+  player.src = `songs/${song}`;
   player.play();
 }
 
